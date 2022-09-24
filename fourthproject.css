@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box ;
+}
+
+
+
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* column-gap: 10px; */
+    padding: 100px 150px;
+    position: relative;
+    background-color: orange;
+}
+.img2{
+    box-shadow: 8px 8px 10px 4px rgb(212, 209, 209);
+    position: absolute;
+    top: 0%;
+    /* right: 50%; */
+    /* left: 50%; */
+    transform: translate(115%,5%);
+}
+.img1{
+    justify-self: end;
+}
+.img3{
+    justify-self:start ;
+}
