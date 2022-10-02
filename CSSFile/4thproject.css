@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 body{
+    font-size: 10px=1rem;
     font-family:serif;
-    max-width:600px ;
+    max-width:40rem;
+    border: 3px solid black;
+    border-radius: 1rem;
+
 }
 p{
     font-size: 12px;
@@ -15,11 +19,11 @@ p{
 /**********Header(nav) section*****/
 /****************************/
 .header{
-    background-color: silver;
+    background-color:aliceblue;
 }
 .continner{
-    max-width: 640px;
-    margin: 10px 60px;
+    max-width: 54rem;
+    margin: 1rem 2rem;
 }
 .nav_header{
     display: flex;
@@ -29,14 +33,14 @@ p{
 }
 .ul_list{
     display: flex;
-    gap: 14px;
+    gap: 1.4rem;
     list-style: none;
     font-weight: bold;
 }
 .list_nav_link:link,
 .list_nav_link:visited,
 .btn_link_nav{
-    font-size: 12px;
+    font-size: 0.7rem;
     text-decoration: none;
     color: #111;
 }
@@ -71,31 +75,31 @@ p{
 /**********Header(hero) section*****/
 /****************************/
 .hero{
-    margin-top: 40px;
+    margin-top: 4rem;
     font-family: serif;
 }
 .box_text{
-    padding: 5px 30px;
+    padding: 5px 3rem;
     background-color: antiquewhite;
     display: inline-block;
     border-radius: 5px;
     color: orangered;
 }
 .hero h1{
-    font-size: 48px;
+    font-size: 3.2rem;
 }
 #span{
     color: orangered;
 }
 #text_des_hero{
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 }
 .action_hero{
     display: flex;
 
 }
 .hero_input{
-    padding: 10px 20px;
+    padding: 0.3rem 1.5rem;
     background-color: #ffff;
     border: 1px solid orangered;
     border-bottom-left-radius: 7px;
@@ -103,7 +107,7 @@ p{
 
 }
 .hero_link{
-    padding: 10px 10px;
+    padding: 1rem 1rem;
     background-color: orangered;
     text-decoration: none;
     color: #ffff;
@@ -115,7 +119,7 @@ p{
     padding: 7px  5px;
     background-color: antiquewhite;
     /* display:-ms-inline-flexbox; */
-    margin-top: 50px;
+    margin-top: 2rem;
     display: flex;
     align-content: flex-start;
     border-radius: 8px;
@@ -146,14 +150,14 @@ h4{
 
 .how_work{
  /* max-width: 550px; */
- margin-top: 50px;
+ margin-top: 5rem;
  background-color: antiquewhite;
 }
 .how_work_grid{
-    margin: 10px 50px;
-    padding-top:20px ;
+    margin: 1rem 5rem;
+    padding-top:2rem ;
     display: grid;
-    grid-template-columns: 250px 1fr;
+    grid-template-columns: 12rem 1fr;
     font-family: serif;
     /* position: relative; */
 }
@@ -173,12 +177,12 @@ h4{
     border-radius: 5px;
 }
 .how_work_btn{
-    padding: 8px 10px;
+    padding: 8px 1rem;
     background-color: orangered;
     border-radius: 5px;
     border: none;
     color: #ffff;
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 .link_btn,.link_testimo{
     padding: 2px 3px;
@@ -220,8 +224,8 @@ h4{
 /**********main(Call to action) section*****/
 /****************************/
 .call_action,.call_pricing{
-    margin: 10px 20px;
-    margin-top: 50px;
+    margin: 1rem 2rem;
+    margin-top: 5rem;
 }
 .text_call{
     text-align: center;
@@ -234,7 +238,7 @@ h4{
   grid-template-columns: repeat(3,1fr);
   /* background-color: aqua; */
   column-gap: 8px;
-  row-gap: 10px;
+  row-gap: 1rem;
 }
 .pricing{
     background-color: #ffff;
@@ -248,7 +252,7 @@ h4{
     padding: 6px 3px ;
 }
 .pricing p{
-    font-size: 10px;
+    font-size: 1rem;
 }
 #prici{
     color: red;
@@ -266,7 +270,7 @@ h4{
 #color{
     position: absolute;
     background-color: antiquewhite;
-    padding-top: 50px auto 50px auto;
+    padding-top: 5rem auto 5rem auto;
 }
 /* .pricing::after{
     content: "heart";
@@ -283,9 +287,9 @@ h4{
     align-self: flex-start;
 }
 #rice{
-    margin-top: 30px;
+    margin-top: 3rem;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
   border-radius: 50%;
 }
 .div2_pricig{
@@ -299,16 +303,16 @@ h4{
 /**********main(Testimonial) section*****/
 /****************************/
 .testimonial_text{
-    margin: 40px 80px;
+    margin: 4rem 8rem;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 2rem;
     align-items: center;
     justify-items: center;
     position: relative;
 }
 .testimonial_text p{
-    font-size: 10px;
+    font-size: 1rem;
     text-align: center;
 }
 .link_testimo1,
@@ -336,17 +340,17 @@ h4{
 /****************************/
 
 .blog_text{
-    margin: 40px 80px;
+    margin: 4rem 8rem;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 2rem;
     text-align: center;
 }
 .blog_text p{
-    font-size: 12px;
+    font-size: 0.8rem;
 }
 .blog_form{
-    margin: 10px 30px;
+    margin: 1rem 3rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     column-gap: 5px;
@@ -360,7 +364,7 @@ h4{
     box-shadow: 1px 1px 1px 1px #9999;
 }
 .form_item h4,a{
-    padding: 10px 4px;
+    padding: 1rem 4px;
     color: orangered;
     text-decoration: none; 
 }
@@ -378,7 +382,7 @@ h4{
 
 }
 .form_item,.ormone p{
-  font-size: 14px;
+  font-size: 1rem;
   color: #888;
 }
 

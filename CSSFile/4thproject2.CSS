@@ -5,11 +5,14 @@
     font-family: sans-serif;
 }
 body{
+    font-size: 10px=1rem;
     font-family:serif;
-    max-width:600px ;
+    max-width:34rem ;
+    border: 3px solid black;
+    border-radius: 1rem;
 }
 p{
-    font-size: 12px;
+    font-size: 0.8rem;
     color: #777;
 }
 /****************************/
@@ -23,22 +26,22 @@ p{
 .pricing,
 .call_to_action,.testimonial
 {
-    max-width: 650px;
-    margin: 10px 30px;
+    max-width: 65rem;
+    margin: 1rem 1rem;
 }
 .nav_header{
     display: flex;
     justify-content: space-between;
     gap: 5px;
     border-bottom: 1px solid #999;
-    padding: 10px 0px 10px 0px ;
+    padding: 0.7rem 0px 0.7rem 0px ;
 }
 #text_des_hero{
-    margin-top: 10px;
+    margin-top: 0.8rem;
 }
 .ul_list{
     display: flex;
-    gap: 14px;
+    gap: 1rem;
     list-style: none;
     font-weight: bold;
 }
@@ -46,7 +49,7 @@ p{
 .list_nav_link:link,
 .list_nav_link:visited,
 .btn_link_nav{
-    font-size: 12px;
+    font-size: 0.6rem;
     text-decoration: none;
     color: #111;
 }
@@ -62,12 +65,12 @@ p{
     border-bottom: 1px solid #999;
 }
 #btn_buy{
-    padding: 10px 18px;
+    padding: 0.5rem 1rem;
     /* border: 1px solid; */
-    border-radius: 40px;
+    border-radius: 4rem;
     background-color: yellow;
     display: inline-block;
-    margin-top:20px ;
+    margin-top:2rem ;
 }
 #prici{
     font-size: 18px;
@@ -75,27 +78,28 @@ p{
 }
 .box_text{
     background-color: aliceblue;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     display:inline-block;
     border-radius: 5px;
     position:absolute;
-    top: 10%;
-    right: 20%;
+    top: -10%;
+    right: -10%;
     box-shadow: 3px 3px 3px 1px rgb(219, 218, 218);
 }
 .hero{
     position: relative;
-     margin-top: 40px;
+     margin-top: 4rem;
 }
-
-
+.flex_hero{
+    display: flex;
+}
 /****************************/
 /**********How_to_work section*****/
 /****************************/
 
 .How_to_work{
     background-color: #222;
-    padding: 5px 10px;
+    padding: 5px 1rem;
 }
 .how_to_div1{
     color: #fff;
@@ -107,19 +111,19 @@ p{
     gap: 5px;
     justify-content: center;
     align-content: center;
-    margin-top: 10px;
+    margin-top: 1rem;
     border-radius: 3px;
-    padding: 10px 10px;
+    padding: 1rem 1rem;
 
 }
 #h3_howto{
-    padding: 8px 10px;
+    padding: 8px 1rem;
     background-color: orange;
     border-radius: 3px;
 }
 .how_to_div1 p{
     color: #999;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 #img_how{    
@@ -136,7 +140,7 @@ p{
 .flex_featur{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin: 30px 0px 30px 0px;
+    margin: 2rem 0px 2rem 0px;
     column-gap: 5px;
     justify-content: center;
 
@@ -148,7 +152,7 @@ p{
 .feature_text{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1rem;
     align-items: flex-end;
 }
 
@@ -172,7 +176,7 @@ display: grid;
 }
 .grid_item{ 
 
-    padding: 10px 30px;
+    padding: 1rem 3rem;
     /* background-color: aquamarine; */
     border-radius: 5px;
     border: 0.5px solid rgb(212, 212, 212);
@@ -193,7 +197,7 @@ display: grid;
 
 
 #ten_call{
-    padding: 15px 18px;
+    padding: 1rem 1rem;
     border: #111 solid 1px;
     background-color: azure;
     display:inline-block;
@@ -205,16 +209,31 @@ display: grid;
 .grid_callto{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    column-gap: 10px;
-    margin: 40px 0px 20px 0px;
+    /* column-gap: 1rem; */
+    margin: 2rem 0rem 2rem 0px;
+}
+h3{
+    font-size: 0.8rem;
 }
 
 .grid_call_item{
-    background-color: blueviolet;
+    background-color:azure;
+    padding: 5px 1rem;
+    display: flex;
+    gap: 1rem;
     
 }
-
-
+#flex_call_text{
+    display: flex;
+    flex-direction: column;
+}
+#gird_img{
+    border-radius: 50%;
+}
+#ten_call{
+    padding: 5px 5px;
+    margin-top: 1rem;
+}
 
 /****************************/
 /**********Testimonial section*****/
@@ -222,7 +241,7 @@ display: grid;
 
 
 .testimonial{
-    margin: 80px 0px 40px 0px;
+    margin: 2rem 0px 2rem 0px;
     text-align: center;
 
 }
@@ -230,8 +249,8 @@ display: grid;
     /* background-color: antiquewhite; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    column-gap: 20px;
-    padding: 40px 20px;
+    column-gap: 2rem;
+    padding: 2rem 2rem;
     
 }
 #img{
@@ -244,7 +263,7 @@ display: grid;
 }
 
 #prag_test{
-    margin: 30px 0px 30px 0px;
+    margin: 3rem 0px 3rem 0px;
     align-items: center;
 }
 .grid_item{
@@ -255,7 +274,7 @@ display: grid;
 .selling{
     margin-left: 0px;
     margin-right: 0px;
-    padding: 10px 60px;
+    padding: 1rem 5rem;
     background-color: #111;
     text-align: center;
     color: #fff;
@@ -263,8 +282,8 @@ display: grid;
 }
 
 .input{
-    margin-top: 20px;
-    padding: 7px 10px;
+    margin-top: 2rem;
+    padding: 7px 1rem;
     border-radius: 5px;
     position: relative;
 }
@@ -306,23 +325,23 @@ display: grid;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
     /* border: #000 solid 1px; */
-    padding: 7px 40px;
+    padding: 7px 4rem;
 }
 
 .foot_div h6{
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     /* color: #ffff; */
 }
 .ul_list_foot{
     list-style: none;
-    font-size: 12px;
+    font-size: 0.7rem;
     font-family: sans-serif;
     /* color: #ffff; */
     padding-bottom: 4px;
 }
 .copyright{
     background-color: #222;
-    padding: 10px 70px;
+    padding: 1rem 7rem;
     display: flex;
     justify-content: space-between;
     color: #ffff;

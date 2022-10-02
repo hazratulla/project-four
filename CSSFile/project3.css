@@ -1,0 +1,314 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family:serif;
+    font-size: 10px=1rem;
+    max-width:37rem ;
+    border:3px solid black;
+    border-radius: 1rem;
+}
+p{
+    font-size: 0.7rem;
+    color: #777;
+}
+
+
+
+
+
+
+/****************************/
+/**********Header(nav) section*****/
+/****************************/
+
+
+.header{
+    background-color:aliceblue;
+}
+.continner,
+.logo,
+.featured,
+.customer,
+.call_to_action,
+.how_to_work{
+    max-width: 64rem;
+    margin: 1rem 3rem;
+}
+.nav_header,
+.how_flex
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav_div2_list{
+}
+.ul_list{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    font-weight: bold;
+}
+.list_nav_link:link,
+.list_nav_link:visited,
+.btn_link_nav{
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: #111;
+}
+.list_nav_link:hover,
+.list_nav_link:active
+{
+    color: orangered;
+}
+.search{
+    padding: 5px 1rem;
+    border-radius: 5px;
+    border:1px #666 solid;
+
+}
+
+.grid_header{
+    display: grid;
+    grid-template-columns: 13.5rem 1fr 5rem;
+    margin: 4rem 0px 4rem 0px;
+}
+.btn_heading{
+    padding: 8px 1rem;
+    background-color:rgb(2, 2, 29);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
+.flex_btn{
+    display: flex;
+    margin-top: 4rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#img_s{
+    padding: 5px 5px;
+    background-color: aquamarine;
+}
+.btnread{
+    background-color: #fff;
+    color: #111;
+}
+
+
+
+/****************************/
+/**********Header(logo) section*****/
+/****************************/
+
+
+.logo{
+
+}
+.logo_grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 3rem;
+}
+.gallery{
+    margin: 4rem 0px 4rem 0px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+column-gap: 3rem;
+}
+#category_head{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.category{
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+/****************************/
+/**********Header section*****/
+/****************************/
+
+.featured{
+    display: flex;
+    /* margin: 40px 0px 40px 0px; */
+    margin-top: 3rem;
+}
+.grid_featurs{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    /* column-gap: 20px; */
+    row-gap: 1rem;
+}
+.grid_featurs{}
+#img_box{
+    background-color: rgb(224, 219, 219);
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+.list_featud{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+.btn{
+    padding: 8px 8px;
+    background-color: #fff;
+    margin: 1rem 0px 1rem 0px;
+    text-decoration: none;
+    border: 1px solid #777;
+    color: #111;
+    border-radius: 5px;
+}
+.btn_arrow,.buy_call{
+    padding: 7px 7px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: rgb(1, 1, 43);
+    margin:1rem 1rem ;
+    display: inline-block;
+}
+
+
+
+/****************************/
+/**********Customer section*****/
+/****************************/
+.customer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 4rem;
+    position: relative;
+    margin-bottom: 13rem;
+
+}
+
+.one{
+    justify-self: start;
+    transform: translate(5%,50%);
+}
+.two{
+    transform: translate(20%,-10%);
+}
+.three{
+    transform: translate(5%,60%);
+}
+#shirt_cost{
+    padding: 5px 1rem;
+    background-color: #fff;
+    position: absolute;
+    top: 4rem;
+    left: -30px;
+}
+
+
+/****************************/
+/**********Call to action section*****/
+/****************************/
+.call_to_action{
+    background-color: rgb(134, 197, 240);
+    padding: 0.5rem 0.5rem;
+    display: flex;
+   align-items: center;
+   justify-items: center;
+    gap: 3rem;
+}
+.call_img{
+    border-radius: 50%;
+}
+
+
+/****************************/
+/**********How to work section*****/
+/****************************/
+.how_to_work{
+ margin-top: 6rem;
+}
+.how_flex{
+    justify-content: space-between;
+    gap: 8rem;
+    padding: 6rem 1rem 8rem 1rem;
+    background-color: rgb(1, 1, 65);
+    color: #fff;
+}
+.card_how{
+    margin-top: 4rem;
+    display: flex;
+    gap: 1rem;
+    align-content: center;
+    justify-content:center ;
+    transform: translate(10%,-80%);
+}
+.crad_item{
+    background-color: white;
+    padding: 8px 8px;
+    justify-self: center;
+}
+.img_crad_item{
+    border-radius: 1rem;
+}
+
+
+
+
+
+
+
+/****************************/
+/**********Footer section*****/
+/****************************/
+
+
+
+.footer{
+    background-color: rgb(2, 2, 49);
+}
+.footer_grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 2fr;
+    border: #000 solid 1px;
+    padding: 7px 3rem;
+}
+.foot_div p{
+ color: #ffff;
+ font-size: 1rem;
+}
+.foot_div h6{
+    margin-bottom: 1rem;
+    color: #ffff;
+}
+.ul_list_foot{
+    list-style: none;
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    color: #ffff;
+    padding-bottom: 4px;
+}
+.input{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+
+}
+.input_felx{
+    margin-top: 1rem;
+}
+.signup{
+    padding: 0.5rem 0.5rem;
+    position: absolute;
+    transform: translate(-20%,-26%);
+    border-left: none;
+}
+.nav_logo{
+    font-size: 3rem;
+}       
